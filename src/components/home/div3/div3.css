@@ -1,0 +1,45 @@
+/* Cards section */
+
+.container_cards{
+	margin: 3rem auto;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
+
+.div3{
+	width: 30%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.div3:hover{
+	transition: 0.2s ;
+	transform: scale(1.01);
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+.div3img{
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.divcontent{
+	padding: 5px;
+}
+
+.divcontent h2{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.divcontent p{
+	font-size: 12.5px;
+	font-weight: 400;	
+}
