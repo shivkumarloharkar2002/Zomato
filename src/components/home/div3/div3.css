@@ -1,12 +1,8 @@
 /* Cards section */
 
 .container_cards{
-	margin: 3rem auto;
-	width: 90%;
+	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
-	gap: 15px;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -14,6 +10,8 @@
 	width: 30%;
 	border-radius: 20px;
 	overflow: hidden;
+	margin: 0 10px 0 0;
+	font-size: 1.6rem
 }
 
 .div3:hover{
@@ -31,12 +29,15 @@
 }
 
 .divcontent{
-	padding: 5px;
+	padding: 10px 20px 16px 20px;
 }
 
 .divcontent h2{
-	font-size: 20px;
-	font-weight: 500;
+	font-family: Okra, Helvetica, sans-serif;
+	text-align: left;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.2rem;
 }
 
 .divcontent p{
