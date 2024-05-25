@@ -1,11 +1,17 @@
-.AddRestaurant {
+
+.backgroundImage {
+    background-image: url(./img/background.webp);
     width: 100%;
-    height: 25rem;
     margin-bottom: 2rem;
+    margin-right: -50px;
     position: relative;
+    object-fit: cover;
+    height: 300px;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
 }
 
-/* .AddRestaurantInner {
+.backgroundImageInner {
     width: 100%;
     height: 100%;
     display: flex;
@@ -14,31 +20,34 @@
     position: relative;
 }
 
-.AddRestaurantImg {
+/* .AddRestaurantImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
-.AddRestaurantTxt {
+.backgroundImageTxt {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    font-size: 62.5%;
     margin-top: 1rem;
     position: relative;
     color: var(--color-white);
     z-index: 1;
+    /* text-decoration-line: line; */
 }
 
 .title {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
+    color: white;
 }
 
 .tag {
@@ -70,7 +79,7 @@
 }
 
 @media (max-width: 480px) {
-    .AddRestaurantTxt {
+    .backgroundImageTxt {
         align-items: center;
     }
 
@@ -104,7 +113,7 @@
 }
 
 @media (max-width: 992px) {
-    .AddRestaurantTxt {
+    .backgroundImageTxt {
         align-items: center;
     }
 
@@ -117,4 +126,9 @@
         font-size: 0.8rem;
         font-weight: 300;
     }
-} */
+} 
+/* .img{
+    background-image: url('./addresto.jpg');
+    background-size: cover;
+
+}  */
