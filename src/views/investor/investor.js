@@ -9,11 +9,11 @@ function Investor(){
 
     return(
 
-        <>
+     
 
         <Navbar/>
         
-        </>
+
     )
 }
 
