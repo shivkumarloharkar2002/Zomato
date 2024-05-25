@@ -8,6 +8,10 @@
 
 .slt{
   height: 29px;
+  font-size: medium;
+  border-radius: 8px;
+  border: 1px solid grey;
+  /* padding-left: px; */
 }
 
 .log{

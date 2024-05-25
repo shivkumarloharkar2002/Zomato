@@ -25,6 +25,8 @@ export function Login(props){
           
          
           <input type='number' placeholder='Phone' className='inputBox'/><br></br>
+
+          <button type="submit" >Send One Time Password</button>
          
         
           {/* <input type='text'  placeholder="Enter your Full Name here" className={'inputBox'}/><br/>
