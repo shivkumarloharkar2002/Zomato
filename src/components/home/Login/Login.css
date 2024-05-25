@@ -1,16 +1,29 @@
-.Container{
-  height: 350px;
-  width: 300px;
+.first{
+  height: 580px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
+}
 
-  background-color: rgb(191, 167, 129);
+.slt{
+  height: 29px;
+}
+
+.log{
+  margin-left: -70%;
+}
+
+.Container{
+  height: 350px;
+  width: 300px;
+ text-align: center;
+  background-color: rgb(245, 239, 230);
 }
 
 .inputBox {
   height: 28px;
-  width: 250px;
+  width: 200px;
   font-size: large;
   border-radius: 8px;
   border: 1px solid grey;
