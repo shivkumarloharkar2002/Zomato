@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 
 
-export default function Navbar(){
+export function Navbar(){
 
     return(
     <>
