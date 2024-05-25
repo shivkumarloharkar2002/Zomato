@@ -1,0 +1,18 @@
+.Container{
+  height: 350px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(191, 167, 129);
+}
+
+.inputBox {
+  height: 28px;
+  width: 250px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
