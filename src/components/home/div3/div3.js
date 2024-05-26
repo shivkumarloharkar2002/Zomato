@@ -34,5 +34,5 @@ export default function Div3() {
 
             </div>
         </>
-    )
+    );
 }
