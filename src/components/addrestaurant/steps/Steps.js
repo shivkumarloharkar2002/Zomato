@@ -1,7 +1,7 @@
 import React from 'react';
 import './Steps.css';
 
-const Steps = () => {
+function Steps () {
   return (
     <section className="steps">
       <h2>How it works?</h2>
