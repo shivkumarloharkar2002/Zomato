@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './views/home/home';
@@ -12,4 +13,4 @@ const routes=createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <RouterProvider router={routes}/>
-);
+)
