@@ -1,9 +1,9 @@
-
 import React from 'react';
-import './resto.css';
-import addrestaurant from './components/addrestaurantheader';
+import resto from './resto.css';
+import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Steps from './components/Steps';
+
 
 function resto() {
   return (
@@ -14,3 +14,5 @@ function resto() {
     </div>
   );
 }
+
+export default resto;

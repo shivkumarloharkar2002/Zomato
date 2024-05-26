@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainContent.css';
 
-const MainContent = () => {
+function MainContent (){
   return (
     <main className="main-content">
       <h2>Get started with online ordering</h2>
@@ -25,3 +25,4 @@ const MainContent = () => {
     </main>
   );
 };
+export  default MainContent;

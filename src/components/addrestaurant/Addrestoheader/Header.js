@@ -1,8 +1,12 @@
 import React from 'react';
 import './Header.css';
+// import ReactDOM from 'react-dom/client';
+import background from './../img/background.webp';
 
-const Header = () => {
+
+function Header (){
   return (
+    <div className='background'>
     <header className="header">
       <h1>Zomato for Business</h1>
       <div className="header-content">
@@ -12,6 +16,7 @@ const Header = () => {
         <p>Need help? Contact +91 97-38-38-38-38</p>
       </div>
     </header>
+  </div>
   );
 };
 
