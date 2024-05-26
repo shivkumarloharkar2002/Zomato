@@ -9,26 +9,26 @@ export default function Div3() {
             <div className="container_cards">
 
                 <div className="div3">
-                    <img className='div3img' src={dining} alt="card1 image" />
+                    <img className='div3img' src={orderonline} alt="card1 image" />
                     <div className="divcontent">
-                        <h2>Nightlife and clubs</h2>
-                        <p>Spend leisure time enjoying the nightlife of Pune</p>
+                        <h5>Order Online</h5>
+                        <p>Stay home and order to your doorstep</p>
                     </div>
                 </div>
 
                 <div className="div3">
-                    <img className='div3img' src={orderonline} alt="card1 image" />
+                    <img className='div3img' src={dining} alt="card1 image" />
                     <div className="divcontent">
-                        <h2>Nightlife and clubs</h2>
-                        <p>Spend leisure time enjoying the nightlife of Pune</p>
+                        <h5>Dining</h5>
+                        <p>View the city's favourite dining venues</p>
                     </div>
                 </div>
 
                 <div className="div3">
                     <img className='div3img' src={nightclub} alt="card1 image" />
                     <div className="divcontent">
-                        <h2>Nightlife and clubs</h2>
-                        <p>Spend leisure time enjoying the nightlife of Pune</p>
+                        <h5>Nightlife and clubs</h5>
+                        <p>Explore the city's top Nightlife outlets</p>
                     </div>
                 </div>
 

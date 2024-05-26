@@ -7,11 +7,14 @@
 }
 
 .div3{
-	width: 30%;
-	border-radius: 20px;
+	width: 350px;
+	height: 240px;
+	border-radius: 10px;
 	overflow: hidden;
-	margin: 0 10px 0 0;
-	font-size: 1.6rem
+	margin: 0 15px 0 0;
+	font-size: 1.6rem;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
 }
 
 .div3:hover{
@@ -29,18 +32,18 @@
 }
 
 .divcontent{
-	padding: 10px 20px 16px 20px;
+	padding: 5px 20px 16px 20px;
 }
 
-.divcontent h2{
+.divcontent h5{
 	font-family: Okra, Helvetica, sans-serif;
 	text-align: left;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 3.2rem;
+	margin-bottom: 10px;
+	font-weight: 200;
 }
 
 .divcontent p{
-	font-size: 12.5px;
+	font-size: 15px;
 	font-weight: 400;	
+	color: grey;
 }

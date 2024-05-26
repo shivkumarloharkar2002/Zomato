@@ -8,6 +8,7 @@ import instagramicon from './img/instagramicon.png'
 import twittericons from './img/twittericons.png'
 import youtube from './img/youtube.png'
 import linkinicons from './img/linkedinicons.png'
+import worldicon from './img/worldicon.png'
 
 export default function Footer(){
     return(
@@ -28,7 +29,7 @@ export default function Footer(){
 						</select>
 					</button>
 					<button>
-						<i class = "fa fa-globe"></i>
+					<img id='worldimg' src ={worldicon} alt = "Indian Flag"/>
 						<select className='Flanguage' >
 							<option>English</option>
 							<option>Español</option>
