@@ -112,6 +112,12 @@ height: 16px;
 width: 30px;
 margin-right:10px;
 }
+.iconimgs{
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+}
+
 .countryselect{
 	border: none; 
 	background: #e8e8e8; 

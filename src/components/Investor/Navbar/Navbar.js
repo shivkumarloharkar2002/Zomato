@@ -1,4 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import './Navbar.css';
+import zomato_logo from'./img/zomato_logo.webp'
 
 
 
@@ -7,9 +9,11 @@ export function Navbar(){
 
     return(
     <>
+    <div class="Navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <img src ={zomato_logo} alt = "Zomato Logo" class = "logo" />
+    <a class="navbar-brand" href="#">| Investors Relstions</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,14 +42,15 @@ export function Navbar(){
             <li><a class="dropdown-item" href="#">ESG Initiatives</a></li>
             <li><a class="dropdown-item" href="#">ESG Microsite</a></li>
           </ul>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Resources</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+</div>
     </>
 
     )

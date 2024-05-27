@@ -1,16 +1,32 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import  { Log } from './views/Log/Log';
-import { Log2 } from './views/Log/Log2';
-import { Sign } from './views/Signup/Sign';
 
 
+const routes=createBrowserRouter([
+    {
+        path:"/",
+        element:<Home/>
+    },
+    // {
+    //     path:'/investor',
+    //     element:<Investor/>
+    // },
+    // {
+    //     path:"/Resto",
+    //     element:<resto/>
+    // }
+    {
+        path:'/log',
+        element:<Log/>
+    }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <>
-   <Log/>
-   <Log2/>
-   <Sign/>
+
     </>
 );
+    <RouterProvider router={routes}/>
+)
