@@ -7,7 +7,7 @@ import Log from './views/Log/Log';
 
 
 import Home from './views/home/home';
-// import Investor from './views/investor/investor'
+import { Investor } from './views/investor/investor';
 // import Resto from './views/addrestaurant/resto';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
@@ -18,10 +18,10 @@ const routes=createBrowserRouter([
         path:"/",
         element:<Home/>
     },
-    // {
-    //     path:'/investor',
-    //     element:<Investor/>
-    // },
+    {
+        path:'/investor',
+        element:<Investor/>
+    },
     // {
     //     path:"/Resto",
     //     element:<resto/>

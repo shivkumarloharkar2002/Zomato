@@ -68,9 +68,11 @@
 .divapp{
     display: flex;
     justify-content: left;
+    margin-top: 10px;
     margin-right: 10px;
 }
 .apppara{
+    margin-top: 20px;
     font-size: 13pt;
     margin: 10px 15px 0 0;
 }

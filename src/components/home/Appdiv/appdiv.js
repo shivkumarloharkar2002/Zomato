@@ -4,6 +4,7 @@ import Applestore from '../footer/img/Applestore.webp'
 import playstore from '../footer/img/playstore.webp'
 
 export default function Appdiv() {
+
     return (
         <>
         <div className='appmain'>
@@ -15,13 +16,13 @@ export default function Appdiv() {
                 <p className='apppara'>We will send you link, Open it on your phone to download the app </p>
                 <div className='radiodiv' >
                     <label>
-                        <input type="radio" name="option"
-                            value="option1" /><span className='rtext'>Email</span> 
+                        <input id='idemial' type="radio" name="option"
+                            value="option1" defaultChecked /><span className='rtext'>Email</span> 
                     </label>
 
                     <label>
                         <input type="radio" name="option"
-                            value="option2" /><span className='rtext'>Phone</span> 
+                            value="option2"  /><span className='rtext' >Phone</span> 
                     </label>
 
                 </div>
@@ -40,11 +41,7 @@ export default function Appdiv() {
 
             </div>
         </div>
-        <script>
-      let radBtnDefault = document.getElementById("radioButton1");
-      radBtnDefault.checked = true;
-   </script>
-
+        
         </>
 
         
