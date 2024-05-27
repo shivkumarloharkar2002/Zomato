@@ -1,9 +1,14 @@
-import { Login } from "../../components/home/Login/Login.js"
+import { Login } from "../../components/Login2/Login/Login"
 
 
-export default function Log(){
+
+export function Log(){
     return(
+        <>
         <Login/>
+
+        </>
 
     )
 }
+
