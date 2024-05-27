@@ -1,11 +1,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './views/home/home'
-import Home from './views/home/home';
-import Log from './views/Log/Log';
 
 
+<<<<<<< HEAD
 import Home from './views/home/home';
 import { Investor } from './views/investor/investor';
 // import Resto from './views/addrestaurant/resto';
@@ -13,6 +11,8 @@ import { Investor } from './views/investor/investor';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Log from './views/Log/Log';
 
+=======
+>>>>>>> e169be67adce6bdd9688d8066a61bfac123f34b9
 const routes=createBrowserRouter([
     {
         path:"/",
@@ -35,10 +35,7 @@ const routes=createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <>
-   <Home/>
-   <Log/> 
-   
-   
+
     </>
 );
     <RouterProvider router={routes}/>
