@@ -3,6 +3,11 @@ import Applestore from './img/Applestore.webp'
 import playstore from './img/playstore.webp'
 import ZomatologoBlack from './img/ZomatologoBlack.avif'
 import indianflag from './img/indianflag.webp'
+import facebook from './img/facebook.png'
+import instagramicon from './img/instagramicon.png'
+import twittericons from './img/twittericons.png'
+import youtube from './img/youtube.png'
+import linkinicons from './img/linkedinicons.png'
 
 export default function Footer(){
     return(
@@ -84,11 +89,11 @@ export default function Footer(){
 				<div class = "link_container">
 					<h5>Social Links</h5>
 					<div class = "social_media_icon_buttons">
-						<button><i class="fa-brands fa-linkedin-in"></i>	</button>
-						<button><i class = "fa-brands fa-instagram"></i></button>
-						<button><i class = "fa-brands fa-twitter"></i></button>
-						<button><i class = "fa-brands fa-facebook"></i></button>
-						<button><i class = "fa-brands fa-youtube"></i></button>
+						<img class='iconimgs' src={linkinicons} />
+						<img class='iconimgs' src={instagramicon} />
+						<img class='iconimgs' src={twittericons} />
+						<img class='iconimgs' src={youtube} />
+						<img class='iconimgs' src={facebook} />
 						<div class = "social_media_logos">
 							<img src = {Applestore} alt = "Apple store" />
 							<img src ={playstore} alt = "Play store" id = "img2"/>
