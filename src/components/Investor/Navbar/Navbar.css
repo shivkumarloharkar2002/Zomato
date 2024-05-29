@@ -18,3 +18,13 @@
     margin-left: 300px;
 
 }
+
+.navv{
+    background-color:white;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    left: 0;
+    /* bottom: 0px; */
+    z-index: 100;
+}

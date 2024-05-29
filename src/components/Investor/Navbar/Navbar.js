@@ -9,8 +9,8 @@ export function Navbar(){
 
     return(
     <>
-    <div class="Navbar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="navv">
+    <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
     <img src ={zomato_logo} alt = "Zomato Logo" class = "logo" />
     <a class="navbar-brand" href="#">| Investors Relstions</a>
