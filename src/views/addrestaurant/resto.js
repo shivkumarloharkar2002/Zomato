@@ -1,18 +1,38 @@
 import React from 'react';
-import resto from './resto.css';
+import Resto from './Resto.css';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Steps from './components/Steps';
+import Partner from '../../components/Addrestaurant/whypattern/Partner';
+import Listed from '../../components/Addrestaurant/listed/Listed';
+// import Product from '../../components/Addrestaurant/our/Product';
+ import Sign from '../../components/Addrestaurant/Singup/Sing';
+// import Happy from '../../components/Addrestaurant/Happy/Happy';
 
 
-function resto() {
+
+
+export function Resto() {
   return (
-    <div className="resto">
-      <Header />
-      <MainContent />
-      <Steps />
-    </div>
-  );
-}
+  <>
 
-export default resto;
+    
+      <Header />
+       <MainContent /> 
+      <Partner/>
+      <Steps />
+      <Listed/>
+      {/* <Product/>   */}
+      <Sign/>  
+      {/* <Happy/>   */}
+    
+
+    </>
+
+
+ );
+}
+export default Resto;
+
+
+

@@ -1,28 +1,81 @@
 import React from 'react';
 import './MainContent.css';
+import greenstik from './image/greenstik.png';
 
-function MainContent (){
+function MainContent() {
   return (
-    <main className="main-content">
-      <h2>Get started with online ordering</h2>
-      <ul>
-        <li>FSSAI license copy</li>
-        <li>PAN card copy</li>
-        <li>Regular GSTIN</li>
-        <li>Bank account details</li>
-        <li>Your restaurant menu</li>
-        <li>Dish images for top 5 items</li>
-      </ul>
-      <section className="why-partner">
-        <h2>Why should you partner with Zomato?</h2>
-        <p>Zomato enables you to get 60% more revenue, 10x new customers and boost your brand visibility by providing insights to improve your business.</p>
-        <div className="stats">
-          <div>1000+ cities in India</div>
-          <div>3 lakh+ restaurant listings</div>
-          <div>5.0 crore+ monthly orders</div>
+    <>
+      <div className="div">
+        <h2 className='title'>Get started with online ordering</h2>
+        <h4 className='text'>Please keep the documents ready for a smooth signup</h4>
+        
+
+        {/* first */}
+        <div className='div1'>
+          <div className='div2' >
+            <div >
+              <img className='imgtick' src={greenstik} />
+            </div>
+            <div>
+              <p className='document'>FASSAI license copy <span className='apply'>(apply now)</span></p>
+            </div>
+          </div>
+          <div className='div2'>
+            <div>
+              <img className='imgtick1' src={greenstik} />
+            </div>
+            <div>
+              <p className='document1'>PAN card copy</p>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
+
+
+
+        {/* second */}
+        <div className='div1'>
+          <div className='div2' >
+            <div >
+              <img className='imgtick' src={greenstik} />
+            </div>
+            <div>
+              <p className='document'>Regular GSTIN (apply now) <span className='apply'>(apply now)</span></p>
+            </div>
+          </div>
+          <div className='div2'>
+            <div>
+              <img className='imgtick1' src={greenstik} />
+            </div>
+            <div>
+              <p className='document2'>Bank account detail</p>
+            </div>
+          </div>
+        </div>
+
+
+
+         {/* third */}
+         <div className='div1'>
+          <div className='div2' >
+            <div >
+              <img className='imgtick' src={greenstik} />
+            </div>
+            <div>
+              <p className='document'>Your restaurant menu</p>
+            </div>
+          </div>
+          <div className='div2'>
+            <div>
+              <img className='imgtick1' src={greenstik} />
+            </div>
+            <div>
+              <p className='document3'>Dish images for top 5 items</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </>
   );
 };
-export  default MainContent;
+export default MainContent;

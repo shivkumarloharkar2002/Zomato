@@ -1,0 +1,10 @@
+.para{
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    margin: auto;
+    display: inline-block;
+}
+.title{
+         text-align: center;
+}
